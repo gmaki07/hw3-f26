@@ -1,8 +1,12 @@
 /*Your Code Here*/
 
 /*Write selector/rule property to add your border when
-links in the navigation are in the hover or focus state.*/
-
+links in the navigation are in the hover or focus state.
+2px purple dotted border*/
+nav a:hover,
+nav a:focus {
+  border: 2px dotted purple;
+}
 
 /*Write selector/rule property to position the default position for the skip class element*/
 
